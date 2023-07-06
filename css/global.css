@@ -150,6 +150,7 @@ header .container {
   max-width: 1150px;
   width: 100%;
   margin: 0 auto;
+  border: 2px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,4 +181,99 @@ header .container nav ul {
 header .container nav ul a {
   font-size: 24px;
   color: black;
+}
+
+.s-1 {
+  background-color: lightblue;
+}
+.s-1 .container {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-1 .container .bigbox {
+  background-color: lightcoral;
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.s-1 .container .bigbox .smallbox {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+.s-1 .container .bigbox .smallbox button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: blue;
+  background-color: lightblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+.s-1 .container .bigbox .pirveli {
+  background-color: rgb(244, 184, 17);
+}
+.s-1 .container .bigbox .meore {
+  background-color: rgb(244, 184, 17);
+}
+.s-1 .container .bigbox .mesame {
+  background-color: rgb(186, 35, 35);
+}
+.s-1 .container .bigbox .meotkhe {
+  background-color: rgb(186, 35, 35);
+}
+
+.s-2 {
+  background-color: rgb(207, 207, 244);
+  padding: 50px 0;
+}
+.s-2 .container {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+}
+.s-2 .container .card {
+  width: 300px;
+  height: 400px;
+  background-color: rgb(180, 178, 178);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.s-2 .container .card .img {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+.s-2 .container .card h2 {
+  font-size: 26px;
+  margin: 20px;
+}
+.s-2 .container .card p {
+  font-size: 18px;
+  margin: 0 20px;
+}
+.s-2 .container .card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: blue;
+  background-color: lightblue;
+  font-size: 20px;
+  cursor: pointer;
 }/*# sourceMappingURL=global.css.map */

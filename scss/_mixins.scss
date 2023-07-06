@@ -1,0 +1,29 @@
+@mixin mycontainer {
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+}
+@mixin goflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+@mixin mycard {
+    width: 300px;
+    height: 400px;
+    background-color: rgb(180, 178, 178);
+    border-radius: 10px;
+    overflow: hidden;
+}
+@mixin mybutton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: blue;
+    background-color: lightblue;
+    font-size: 20px;
+    cursor: pointer;
+}
